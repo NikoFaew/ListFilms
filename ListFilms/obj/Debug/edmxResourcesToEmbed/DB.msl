@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище FilmsDatabaseContainer" CdmEntityContainer="FilmsDatabaseEntities">
+    <EntitySetMapping Name="Films_tb">
+      <EntityTypeMapping TypeName="FilmsDatabase.Films_tb">
+        <MappingFragment StoreEntitySet="Films_tb">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="budget" ColumnName="budget" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="genres" ColumnName="genres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
